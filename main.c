@@ -80,6 +80,7 @@ void identify_identical(snowflake_node *snowflakes[])
 
                 node2 = node2->next;
             }
+            node1 = node1->next;
         }
     }
     printf("No two snowflakes are alike.\n");
